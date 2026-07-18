@@ -29,4 +29,9 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "IsntGannaUse")
+	float TestValue;
+
+	UFUNCTION(BlueprintCallable, Category = "IsntGannaUse")
+	void PrintLog();
 };

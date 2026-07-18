@@ -40,3 +40,7 @@ void AMyActor::Tick(float DeltaTime)
 
 }
 
+void AMyActor::PrintLog()
+{
+	UE_LOG(LogTemp, Warning, TEXT("Function call."));
+}
